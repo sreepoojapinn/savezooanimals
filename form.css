@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@700&display=swap');
+body {
+  background: url("https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 2000px 1050px; 
+  font-family: 'Blinker', sans-serif;
+  justify-content: center;
+}
+
+ input[type=text]:focus {
+  border: 3px solid #555;
+  background-color: darkcyan;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #42b445;
+  border: none;
+  color: whitesmoke;
+  padding: 200px 32px;
+  text-decoration: none;
+  margin: auto;
+  cursor: pointer;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+
+a:hover {
+  color: darkcyan;
+}
